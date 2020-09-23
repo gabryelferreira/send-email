@@ -12,8 +12,8 @@ const transporter = nodemailer.createTransport({
 
 const emailToSend = {
     from: process.env.EMAIL_USER, // sender address
-    to: "seu_email@hotmail.com",
-    subject: `Assunto do email`,
+    to: "gabryel.ferreira@hotmail.com",
+    subject: `Globo - Email Fera`,
     html: htmlEmail
 }
 
